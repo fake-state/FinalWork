@@ -37,8 +37,7 @@ string[] NewArr(string[] oldArr, string[] newArr) // Заполняем новы
     int j = 0;
     while(i < oldArr.Length)
     {
-        string checkValue = oldArr[i];
-        if(checkValue.Length <= 3)
+        if(oldArr[i].Length <= 3)
         {
             newArr[j] = oldArr[i];
             j++;
